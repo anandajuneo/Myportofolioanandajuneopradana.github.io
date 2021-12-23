@@ -1,0 +1,31 @@
+body {
+  font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-bg {
+  background-color: rgb(114, 2, 114);
+}
+
+.main-color {
+  background-color: rgb(114, 2, 114) !important;
+}
+
+.banner {
+  height: 55vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../web demo/image/banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hovered-card {
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.hovered-card:hover {
+  transform: scale(1.1);
+}
+
+.content-suscribe {
+  background-color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,22 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+  height: 420px;
+}
+
+#projects {
+  background-color: #e2edff;
+  height: 460px;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact {
+  height: 600px;
+}

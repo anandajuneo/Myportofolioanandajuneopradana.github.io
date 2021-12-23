@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio | Ananda Juneo Pradna</title>
+
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm
+     fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ananda Juneo Pradana</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-4">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/profile.jpeg" class="rounded-circle img-thumbnail" alt="Ananda Juneo" width="200" />
+      <h1 class="display-4">Ananda Juneo Pradana</h1>
+      <p class="lead">Web development</p>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <!-- About me -->
+    <section id="about">
+      <div class="container">
+        <h2 class="text-center">About me</h2>
+        <div class="row text-center mb-3">
+        <div class="row justify-content-center fs-5">
+          <div class="col-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, aperiam ipsum eius deleniti sunt soluta deserunt ipsam!</p>
+          </div>
+          <div class="col-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequatur autem placeat quis cumque consequuntur expedita et sint voluptatibus!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About me -->
+    
+    <!-- projects -->
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center">
+              <div class="col">
+                <h2>My Projects</h2>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                      <img src="img/web/Ellie.jpg" alt="1">
+                      <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio deserunt nemo sint alias!</p>
+                      </div>
+                      <a href="web demo/ellie/index.html" class="btn btn-primary">Demo</a>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                      <img src="img/web/kafe.jpg" alt="2">
+                      <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio deserunt nemo sint alias!</p>
+                      </div>
+                      <a href="web demo/index.html" class="btn btn-primary">Demo</a>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                      <img src="img/web/landing page.jpg" alt="3">
+                      <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio deserunt nemo sint alias!</p>
+                      </div>
+                      <a href="web demo/Landing Page 11/index.html" class="btn btn-primary">Demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir projects -->
+    
+    <!-- Contact -->
+<section id="contact">
+  <div class="container">
+      <h2>Contact</h2>
+      <form class="col-lg-9 offset-lg-2">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nama</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" aria-describedby="email">
+        </div>
+        <div class="mb-3">
+          <label for="Pesan" class="form-label">Pesan</label>
+          <textarea class="form-control" id="pesan" rows="6"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+  </div>
+</section>
+    <!-- Akhir contact-->
+
+    <!-- footer-->
+ <div class="container-fluid py-3 bg-primary text-light">
+  <div class="container d-flex justify-content-between">
+    <label>&copy;2021 My portofolio | Ananda Juneo Pradana</label>
+    <label>Created by Ananda Juneo Pradana</label>
+  </div>
+</div>
+
+
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
